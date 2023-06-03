@@ -5,15 +5,11 @@
     background: linear-gradient(#fbfff1, #293241);
     width: 375px;
     display: grid;
-    grid-template-rows: 140px 120px 340px 110px 600px 110px auto;
+    grid-template-rows: 1px 120px 340px 110px 600px 110px auto;
   }
 
   .nombre h1 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 2rem;
-    font-family: "Righteous", cursive;
-    color: var(--color-primario);
+    color: #29324100;
   }
 
   .fulls {
@@ -51,6 +47,7 @@
 
   .estudios {
     margin-top: 2rem;
+    margin-left: 2.5rem;
   }
 
   .estudios > ol {
@@ -95,6 +92,7 @@
 
   .experiencia {
     margin-top: 1rem;
+    margin-left: 2.5rem;
   }
 
   .experiencia > ol {
