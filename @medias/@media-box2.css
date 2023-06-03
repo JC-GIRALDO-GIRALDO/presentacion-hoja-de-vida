@@ -1,0 +1,106 @@
+@media (max-width: 375px) {
+  @import "variables.css";
+
+  .box2 {
+    background: linear-gradient(#fbfff1, #293241);
+    width: 375px;
+    display: grid;
+    grid-template-rows: 140px 120px 340px 110px 600px 110px auto;
+  }
+
+  .nombre h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2rem;
+    font-family: "Righteous", cursive;
+    color: var(--color-primario);
+  }
+
+  .fulls {
+    background-color: var(--color-primario);
+    width: 375px;
+    margin-top: 20px;
+  }
+
+  .fulls h2 {
+    font-family: "Play", sans-serif;
+    color: var(--color-quinaria);
+    text-align: initial;
+  }
+
+  .perfil > p {
+    text-align: justify;
+    width: 290px;
+    margin-top: 1rem;
+    font-family: "Courgette", cursive;
+  }
+
+  .fulls2 {
+    background-color: var(--color-primario);
+    width: 375px;
+    margin-top: 20px;
+  }
+
+  .fulls2 > h2 {
+    font-family: "Play", sans-serif;
+    color: var(--color-quinaria);
+    font-size: 30px;
+    text-align: inherit;
+    padding-top: 1rem;
+  }
+
+  .estudios {
+    margin-top: 2rem;
+  }
+
+  .estudios > ol {
+    width: 375px;
+    margin-left: 0.2rem;
+    margin-top: 1rem;
+    font-family: "Courgette", cursive;
+  }
+
+  ul {
+    margin-bottom: 1rem;
+  }
+
+  ul > li {
+    margin-left: 0.2rem;
+  }
+
+  .estudios > h3 {
+    font-family: "Play", sans-serif;
+    margin-left: 0.2rem;
+    font-size: 20px;
+  }
+
+  .estudios > h3 > span {
+    padding-right: 0.2rem;
+    color: var(--color-primario);
+  }
+
+  .fulls3 {
+    background-color: var(--color-primario);
+    width: 375px;
+    margin-top: 15px;
+  }
+
+  .fulls3 > h2 {
+    font-family: "Play", sans-serif;
+    color: var(--color-quinaria);
+    font-size: 30px;
+    text-align: inherit;
+    padding-top: 1rem;
+  }
+
+  .experiencia {
+    margin-top: 1rem;
+  }
+
+  .experiencia > ol {
+    width: 375px;
+    margin-left: 0.2rem;
+    margin-top: 1rem;
+    font-family: "Courgette", cursive;
+  }
+}

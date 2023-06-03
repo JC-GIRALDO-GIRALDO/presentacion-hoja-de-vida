@@ -1,0 +1,12 @@
+@media (max-width: 375px) {
+  @import "variables.css";
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body {
+    background-color: var(--color-primario);
+  }
+}

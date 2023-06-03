@@ -1,0 +1,9 @@
+@media (max-width: 375px) {
+  @import "variables.css";
+
+  .container {
+    width: auto;
+    display: grid;
+    grid-template-columns: 375px;
+  }
+}
