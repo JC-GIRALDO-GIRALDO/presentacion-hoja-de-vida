@@ -23,3 +23,7 @@ Icono-school
 school
 </span>
 
+Icono-Touch App
+<span class="material-symbols-outlined">
+touch_app
+</span>
